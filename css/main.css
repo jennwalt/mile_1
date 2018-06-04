@@ -1,0 +1,103 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body{
+	background-color:#F4F3F4;
+	}
+header{
+	width:100%;
+	top:0px;
+	pading:2.5em;
+	position: relative;
+}
+#logo{
+	position:relative;
+	display:block;
+	float:left;
+	width: 3.1em;
+}
+.nav {
+	width: auto;
+	padding: 1.5em;
+	margin-top: 0px;
+	float: right;
+	text-align: justify;
+	font-family: 'Cinzel', serif;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+li {
+	float: left;
+	font-size: 18px;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #FFFFFF;
+}
+h1{
+	font-family: 'Zeyada', cursive;
+	font-size:65px;
+	position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    text-align: center;
+}
+.hero{
+	float:left;
+	top:100%;
+	margin-top:500px;
+	margin-left:150px;
+	display: inline-block;
+}
+h2{
+	font-family: 'Zeyada', cursive;
+	font-size:46px;
+	display: inline-block;
+	vertical-align: middle;
+	padding:5em;
+	margin-top: -1000px			
+}
+p{
+	font-family: 'Raleway', sans-serif;
+	font-size: 22px;
+	text-align: justify;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 825px;
+	margin-top: -600px;
+	margin-right: 200px;
+}
+
+.work{
+	text-transform:uppercase;
+	}
+
+#back-img {
+	width:100%;
+	max-width:100%;
+	vertical-align:middle;
+	padding-top: 200px
+	
+	
+}
+	
+#information {
+	float:left;
+	width: 40%;
+	postion:relative;
+}
